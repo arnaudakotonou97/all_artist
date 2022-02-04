@@ -1,0 +1,30 @@
+.page {
+    display: block;
+    padding: 2rem;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .userListImg {
+    flex: 1;
+    width: 32px;
+    height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .userListUsername {
+    flex: 2;
+  }
